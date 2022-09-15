@@ -1,0 +1,21 @@
+@import "../../styles/variables.scss";
+
+.wrapper_chat {
+   height: 500px;
+   overflow-y: scroll;
+   padding: 2rem;
+   background: $light;
+   border-radius: $borderRadius1;
+}
+
+input {
+   width: 100%;
+}
+
+::placeholder {
+   color: $primary;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   font-size: small;
+}

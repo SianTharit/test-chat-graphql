@@ -1,0 +1,32 @@
+// colors
+$dark: #383838;
+$white: #ffffff;
+$light: #f2f2f2;
+$primary: #6f6f6f;
+$red: #c41417;
+$darkRed: #b31315;
+$textColor: #4e4e4e;
+
+// border radius
+$borderRadius1: 10px;
+$borderRadius2: 20px;
+
+// spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+// font size
+$fontSize1: 34px;
+$fontSize2: 37px;
+
+// transition
+$transition: all 400ms ease;
+
+@mixin breakpoint($point) {
+   @if $point == md {
+      //768px
+      @media (min-width: 48em) {
+         @content;
+      }
+   }
+}

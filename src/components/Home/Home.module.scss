@@ -1,0 +1,18 @@
+@import "../../styles/variables.scss";
+
+input {
+   height: 60px;
+   text-align: center;
+   color: $textColor;
+   border: 3px solid lightgray;
+   border-radius: $borderRadius1;
+   font-size: $fontSize1;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+}
